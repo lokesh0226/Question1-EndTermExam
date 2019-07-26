@@ -13,7 +13,7 @@ class ECE extends Courses{ //extend the parent class here
 		// write or edit your code here 
 		String commonSubjects = super.displayCourseDetails("ECE");//call the parent function after using inheritence
 		String subject1 = "Microprocessor"; //write the specific subjects name here
-		String subject2 = "Linear Integrated Circuit"; //write the specific subjects name here
+		String subject2 = "Linear Integrated Circuits"; //write the specific subjects name here
 	
 		String specificSubjects = " specific subjects are:\n4. "+subject1+"\n5. "+subject2;
 		return commonSubjects+dept+specificSubjects;
